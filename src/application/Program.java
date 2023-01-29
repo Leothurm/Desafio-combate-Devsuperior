@@ -46,7 +46,7 @@ public class Program {
 		for (int i = 0; i < N; i++) {
 			while(champion1.getLife() != 0 && champion2.getLife() != 0 && i < N) {
 				
-				System.out.printf("Resultado do turno %d%n: ", i+1);		
+				System.out.printf("Resultado do turno %d%n", i+1);		
 				i+=1;
 				champion1.takeDamage(champion2);
 				champion2.takeDamage(champion1);
